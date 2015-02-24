@@ -36,6 +36,7 @@ set colorcolumn=81
 " Behavior                                                                     "
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 set title " change the terminal's title
+set titleold=""
 set fileformats="unix,dos,mac"
 set wildmenu " make tab completion for files/buffers act like bash
 
