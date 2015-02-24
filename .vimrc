@@ -30,7 +30,7 @@ set background=dark                    "background dark/light
 colorscheme molokai
 "colorscheme solarized
 
-set cc=80
+set colorcolumn=81
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Behavior                                                                     "
