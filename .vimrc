@@ -53,6 +53,9 @@ set laststatus=2 "shows statusline
 
 set hidden
 
+set list                            " Show invisible characters
+set listchars=tab:›\ ,eol:¬,trail:⋅ " Set the characters for the invisibles
+
 " MacVim
 if has("gui_running")
   set guioptions=egmrt       "diable toolbar
