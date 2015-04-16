@@ -13,7 +13,8 @@ call vundle#begin()
 " let Vundle manage Vundle, required
 Plugin 'gmarik/Vundle.vim'
 Plugin 'kien/ctrlp.vim'
-Plugin 'tomasr/molokai'
+"Plugin 'tomasr/molokai'
+Plugin 'nanotech/jellybeans.vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -27,7 +28,7 @@ syntax on                              "color highlighting
 set number                             "line numbers
 set is                                 "incremental search
 set background=dark                    "background dark/light
-colorscheme molokai
+colorscheme jellybeans
 "colorscheme solarized
 
 set colorcolumn=81
