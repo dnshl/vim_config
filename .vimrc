@@ -71,6 +71,9 @@ endif
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let mapleader=","                      "change leader to ,
 
+" NERDTree
+map <leader>d :NERDTreeToggle<CR>
+
 "reload configuration
 noremap <F5> :execute 'so $MYVIMRC'<CR>
 
